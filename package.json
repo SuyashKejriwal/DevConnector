@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "\"A web app to connect developers\"",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
@@ -13,7 +14,9 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.3.3",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
     "express-validator": "^6.9.2",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.12"
